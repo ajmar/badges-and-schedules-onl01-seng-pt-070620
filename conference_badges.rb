@@ -14,4 +14,4 @@ def assign_rooms(attendees)
   attendees.each.with_index(1) do
 
   end
-  
+end
