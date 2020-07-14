@@ -20,6 +20,6 @@ def assign_rooms(attendees)
   array
 end
 
-def printer(attendees)
+def printer(badge_maker)
   puts ""
 end
