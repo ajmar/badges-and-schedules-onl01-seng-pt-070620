@@ -24,5 +24,4 @@ def printer(attendees)
   array = []
   array << batch_badge_creator + assign_rooms
   puts "#{array}"
-  end
 end
