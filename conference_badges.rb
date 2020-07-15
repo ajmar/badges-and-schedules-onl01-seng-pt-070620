@@ -20,7 +20,9 @@ def assign_rooms(attendees)
   array
 end
 
-def printer
-puts = batch_badge_creator
-puts = assign_rooms
+def printer(attendees)
+  array[]
+  attendees.each do |batch_badge_creator, assign_rooms|
+
+  end
 end
