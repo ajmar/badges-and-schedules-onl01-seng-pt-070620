@@ -25,7 +25,7 @@ def printer(sticker)
   rooms = assign_rooms(attendees)
   array1 = []
   sticker.each do |badges|
-  array1 << "#{badges}"
+  array1 << "Hello, my name is #{badges}."
   puts array1
   end
 end
