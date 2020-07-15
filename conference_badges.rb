@@ -26,6 +26,6 @@ def printer(sticker)
   array1 = []
   sticker.each do |badges|
   array1 << "#{badges}"
-  end
   puts array1
+  end
 end
