@@ -24,6 +24,6 @@ def printer(sticker)
   badges = batch_badge_creator(attendees)
   rooms = assign_rooms(attendees)
   sticker.each do |badges|
-   puts "Hello, #{badges}! You'll be assigned to room!"
+   puts "Hello, my name is #{badges}."
   end
 end
