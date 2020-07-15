@@ -22,7 +22,7 @@ end
 
 def printer(attendees)
   array = []
-  attendees.each do |batch_badge_creator, assign_rooms|
+  attendees.each do |1|
   array << "#{batch_badge_creator}, #{assign_rooms}"
   end
   puts array
