@@ -26,4 +26,7 @@ def printer(sticker)
   sticker.each do |badges|
    puts "Hello, my name is #{badges}."
   end
+  sticker.each.with_index(1) do |rooms, i|
+    puts "Hello, #{rooms}! You'll be assigned to room #{i}!"
+  end
 end
